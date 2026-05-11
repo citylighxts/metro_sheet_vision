@@ -1,0 +1,17 @@
+# Python 3.12 is required for this script.
+# coremltools does not support Python 3.14 (BlobWriter C++ extension not built for it).
+#
+# Setup:
+#   brew install python@3.12
+#   /opt/homebrew/bin/python3.12 -m venv .venv312
+#   source .venv312/bin/activate
+#   pip install -r scripts/requirements.txt
+
+ultralytics>=8.2.0,<9.0
+coremltools>=8.0,<9.0     # 8.x is tested on Python 3.12; 9.0 breaks on 3.14
+torch>=2.1.0,<3.0
+torchvision>=0.16.0
+onnx>=1.16.0
+onnxsim>=0.4.36
+numpy>=1.24.0,<2.0        # numpy 2.x has breaking changes for coremltools 8.x
+Pillow>=10.0.0
