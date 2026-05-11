@@ -1,13 +1,6 @@
 # Metro Sheet Vision
 
-On-device Optical Music Recognition for piano learners.
-
-
-## Overview
-
-Metro Sheet Vision is a Flutter app that detects accidentals and noteheads directly on-device. No server and no internet needed.
-
-Quick facts:
+On-device Optical Music Recognition for piano learners to detect accidentals in sheet music. Accidentals change a note by a semitone (sharp raises, flat lowers, natural cancels).
 
 - Platform: iOS (min iOS 16)
 - Runtime: Apple Vision + CoreML (Neural Engine)
