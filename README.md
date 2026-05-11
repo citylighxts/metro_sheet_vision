@@ -28,27 +28,49 @@ The default model is downloaded in the conversion script from:
 ## App flow and screenshots
 
 Start from the home screen.
-placeholder
+
+<img width="201" alt="home-screen" src="https://github.com/user-attachments/assets/c9e7f4cc-5438-4c9a-9e78-c6a804359a7c" />
+
 
 If the user taps **Scan**, the app will show scan screen like this for scanning. 
-placeholder
-placeholder
+<p>
+  <img src="https://github.com/user-attachments/assets/79bd9fde-f69d-4bda-b4f4-889f73026630" width="201" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/97178d42-7fc4-45b1-854b-434a72eaab58" width="201" />
+</p>
 
 If the user taps **Choose from library**, the app will show the picker screen.
-placeholder
+
+<img width="201" alt="picker" src="https://github.com/user-attachments/assets/ef383439-cf6c-42e3-bc55-4473554c8b09" />
+
 
 After an image is selected, the app will show the buffering state "Analyzing sheet music".
-placeholder
+
+<img width="201" alt="buffer" src="https://github.com/user-attachments/assets/83485031-564a-42b0-a49d-ea8c0cbdf836" />
+
 
 then the app will show the results with detected accidentals, both are the default result and when it is zoomed.
-placeholder
-placeholder
+<p>
+  <img src="https://github.com/user-attachments/assets/a57f99d9-f69b-4aa3-9dd4-0cfee2c1d427" width="201" alt="result" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/7f7c48af-ec3d-42c7-a2c9-7ead444d2a32" width="201" alt="zoomed-result" />
+</p>
+
 
 Next, if the specific accidental is pressed, accidental detail popups for Flat, Natural, and Sharp will be shown.
-placeholder x 3
+<p>
+  <img src="https://github.com/user-attachments/assets/f50c79b0-1476-41b0-9b81-a314acc77cab" width="201" alt="flat-popup" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/3f5e76a4-8589-4d40-b1ab-792d5a2cc924" width="201" alt="natural-popup" />
+  &nbsp;
+  <img src="https://github.com/user-attachments/assets/229e2fa2-65f1-43c4-81a7-f9f009d4c0a0" width="201" alt="sharp-popup" />
+</p>
+
 
 Finally, the app will show the detections detail panel pulled up from the bottom.
-placeholder
+
+<img width="201" alt="detail" src="https://github.com/user-attachments/assets/a3708de2-f42e-4fb5-b18d-538665667810" />
+
 
 ## How to run
 
